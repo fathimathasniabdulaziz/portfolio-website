@@ -1,0 +1,207 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Fathima Thasni — Data Analyst</title>
+  <meta name="description" content="Portfolio of Fathima Thasni — Data Analyst. Python, SQL, Power BI, Machine Learning, Data Visualization." />
+  <link rel="icon" href="data:;base64,iVBORw0KGgo=">
+  <style>
+    :root{
+      --bg:#0f1724; --card:#0b1220; --muted:#9aa4b2; --accent:#6ee7b7;
+      --glass: rgba(255,255,255,0.03);
+      --maxw:1100px;
+      --glass-2: rgba(255,255,255,0.02);
+    }
+    *{box-sizing:border-box}
+    body{margin:0;font-family:Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; background:linear-gradient(180deg,#071022 0%, #081428 60%); color:#e6eef6; -webkit-font-smoothing:antialiased;}
+    .container{max-width:var(--maxw);margin:40px auto;padding:28px}
+    header{display:flex;gap:20px;align-items:center}
+    .avatar{width:90px;height:90px;border-radius:16px;background:linear-gradient(135deg,var(--accent),#60a5fa);display:flex;align-items:center;justify-content:center;font-weight:700;color:#042028;font-size:28px;box-shadow:0 6px 20px rgba(2,6,23,0.7)}
+    h1{margin:0;font-size:26px}
+    p.lead{color:var(--muted);margin:6px 0 0}
+    .grid{display:grid;grid-template-columns:1fr 340px;gap:28px;margin-top:28px}
+    @media(max-width:900px){.grid{grid-template-columns:1fr} .right{order:-1}}
+    .card{background:linear-gradient(180deg,var(--glass),var(--glass-2));border-radius:12px;padding:18px}
+    .section{margin-bottom:18px}
+    .skills{display:flex;flex-wrap:wrap;gap:8px}
+    .chip{background:rgba(255,255,255,0.03);padding:8px 12px;border-radius:999px;font-size:13px;color:var(--muted);border:1px solid rgba(255,255,255,0.03)}
+    .project{border-radius:10px;padding:12px;margin-bottom:12px;background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));}
+    .muted{color:var(--muted);font-size:14px}
+    a.btn{display:inline-block;background:transparent;border:1px solid rgba(255,255,255,0.06);padding:10px 14px;border-radius:8px;text-decoration:none;color:var(--accent);font-weight:600}
+    .contact a{display:inline-block;margin-right:10px}
+    footer{margin-top:28px;color:var(--muted);font-size:13px;text-align:center}
+    .stats{display:flex;gap:12px;margin-top:12px}
+    .stat{background:rgba(255,255,255,0.02);padding:10px 14px;border-radius:10px;text-align:center}
+    .stat strong{display:block;font-size:16px}
+    .timeline{list-style:none;padding:0;margin:0}
+    .timeline li{padding:10px 0;border-left:2px solid rgba(255,255,255,0.03);padding-left:12px;margin-left:6px}
+    .project .tags{margin-top:8px}
+    .project .tags .chip{font-size:12px;padding:6px 8px}
+    .hero{display:flex;justify-content:space-between;align-items:flex-start;gap:20px}
+    .hero .intro{max-width:720px}
+    .cta{margin-top:16px}
+    .tech-list{display:flex;flex-wrap:wrap;gap:10px}
+    .footer-links{display:flex;gap:12px;justify-content:center;margin-top:18px}
+    .download-resume{margin-left:8px}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="avatar">FT</div>
+      <div>
+        <h1>Fathima Thasni — Data Analyst</h1>
+        <p class="lead">Python · SQL · Power BI · Machine Learning · Data Visualization</p>
+        <div class="stats">
+          <div class="stat"><strong>3+</strong><span class="muted">Years experience</span></div>
+          <div class="stat"><strong>10+</strong><span class="muted">Projects (Freelance & Personal)</span></div>
+        </div>
+      </div>
+      <div style="margin-left:auto" class="contact">
+        <a class="btn" href="mailto:thasnifabis@gmail.com">Email</a>
+        <a class="btn" href="https://github.com/fathimathasniabdulaziz" target="_blank">GitHub</a>
+        <a class="btn" href="https://www.linkedin.com/in/fathimathasnifabis" target="_blank">LinkedIn</a>
+      </div>
+    </header>
+
+    <main class="grid">
+      <div>
+        <section class="card hero">
+          <div class="intro">
+            <h2 style="margin:0 0 8px">About me</h2>
+            <p class="muted">Data Analyst with hands-on experience in machine learning, predictive modeling and interactive dashboards. I extract actionable insights from complex datasets and turn them into operational reports and ML models that deliver business impact.</p>
+            <div class="cta">
+              <a class="btn" href="#projects">See projects</a>
+              <a class="btn download-resume" href="https://github.com/fathimathasniabdulaziz" target="_blank">View GitHub</a>
+            </div>
+          </div>
+          <div style="min-width:220px;margin-left:20px">
+            <div class="card">
+              <h3 style="margin:0 0 8px">Skills</h3>
+              <div class="skills">
+                <span class="chip">Python</span>
+                <span class="chip">pandas</span>
+                <span class="chip">NumPy</span>
+                <span class="chip">Scikit-Learn</span>
+                <span class="chip">TensorFlow</span>
+                <span class="chip">SQL</span>
+                <span class="chip">Power BI</span>
+                <span class="chip">Tableau</span>
+                <span class="chip">Excel</span>
+                <span class="chip">AWS</span>
+                <span class="chip">Data Viz</span>
+              </div>
+            </div>
+
+            <div class="card" style="margin-top:12px">
+              <h3 style="margin:0 0 8px">Quick Info</h3>
+              <ul class="timeline">
+                <li><strong>Location:</strong> United Arab Emirates</li>
+                <li><strong>Email:</strong> thasnifabis@gmail.com</li>
+                <li><strong>Phone:</strong> +971 50 350 6012</li>
+                <li><strong>Education:</strong> B.E. Information Technology</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <section id="projects" class="card section">
+          <h2 style="margin-top:0">Selected Projects</h2>
+
+          <div class="project">
+            <h3 style="margin:0">Earthquake Prediction Model</h3>
+            <p class="muted">Developed ML/DL models to predict seismic events; engineered geospatial features and built Power BI dashboards for real-time monitoring.</p>
+            <div class="tags">
+              <span class="chip">Python</span>
+              <span class="chip">LSTM</span>
+              <span class="chip">Power BI</span>
+            </div>
+          </div>
+
+          <div class="project">
+            <h3 style="margin:0">Student Performance Prediction</h3>
+            <p class="muted">Predicted student performance with high accuracy using feature engineering and classification models to support early interventions.</p>
+            <div class="tags"><span class="chip">ML</span><span class="chip">Feature Engineering</span></div>
+          </div>
+
+          <div class="project">
+            <h3 style="margin:0">Fraud Detection System</h3>
+            <p class="muted">Built a Random Forest based fraud detection model for financial datasets that reduced false positives in client deployments.</p>
+            <div class="tags"><span class="chip">Random Forest</span><span class="chip">Data Cleaning</span></div>
+          </div>
+
+          <div class="project">
+            <h3 style="margin:0">Heart Disease Prediction</h3>
+            <p class="muted">Implemented logistic regression model with strong performance, focusing on clinical data pre-processing and privacy-safe handling.</p>
+            <div class="tags"><span class="chip">Healthcare</span><span class="chip">Logistic Regression</span></div>
+          </div>
+        </section>
+
+        <section class="card section">
+          <h2 style="margin-top:0">Experience</h2>
+          <ul class="timeline">
+            <li><strong>Data Analyst | Entri Software Pvt Ltd</strong> — Jun 2024 – 2025<br><span class="muted">Machine learning, earthquake prediction, Power BI dashboarding</span></li>
+            <li><strong>Freelance Data Analyst | Upwork</strong> — Dec 2023 – Present<br><span class="muted">Fraud detection, customer segmentation, realtime dashboards</span></li>
+          </ul>
+        </section>
+
+        <section class="card section">
+          <h2 style="margin-top:0">Education & Certifications</h2>
+          <ul class="timeline">
+            <li><strong>B.E. Information Technology</strong> — University of Calicut</li>
+            <li><strong>Data Science & ML</strong> — Entry Elevate (2023–2024)</li>
+            <li class="muted">Certs: Programming in Python (Meta), IBM Data Analyst, Google Foundations</li>
+          </ul>
+        </section>
+      </div>
+
+      <aside class="right">
+        <div class="card">
+          <h3 style="margin:0 0 8px">Contact</h3>
+          <p class="muted">I'm available for freelance and full-time opportunities. Reach out and let's talk about how I can help your team.</p>
+          <div style="margin-top:12px">
+            <a class="btn" href="mailto:thasnifabis@gmail.com">Email me</a>
+            <a class="btn" href="tel:+971503506012">Call</a>
+          </div>
+
+          <div style="margin-top:12px">
+            <h4 style="margin:0 0 8px">Links</h4>
+            <div class="footer-links">
+              <a class="btn" href="https://github.com/fathimathasniabdulaziz" target="_blank">GitHub</a>
+              <a class="btn" href="https://www.linkedin.com/in/fathimathasnifabis" target="_blank">LinkedIn</a>
+              <a class="btn" href="mailto:thasnifabis@gmail.com">Resume (email)</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="card" style="margin-top:12px">
+          <h3 style="margin:0 0 8px">Tech & Tools</h3>
+          <div class="tech-list">
+            <div class="chip">Python</div>
+            <div class="chip">SQL</div>
+            <div class="chip">Power BI</div>
+            <div class="chip">Tableau</div>
+            <div class="chip">Excel</div>
+            <div class="chip">AWS</div>
+          </div>
+        </div>
+
+        <div class="card" style="margin-top:12px">
+          <h3 style="margin:0 0 8px">Availability</h3>
+          <p class="muted">Open to contract or full-time roles. Based in UAE.</p>
+        </div>
+      </aside>
+    </main>
+
+    <footer>
+      <div>Made with ❤️ • <a href="https://github.com/fathimathasniabdulaziz" target="_blank" style="color:var(--accent);text-decoration:none">GitHub</a></div>
+      <div style="margin-top:8px" class="muted">Tip: to publish, push this file to a GitHub repo and enable GitHub Pages (see instructions below).</div>
+
+      <div style="margin-top:12px; font-size:13px; color:var(--muted)">
+        <strong>Deploy:</strong> Push to a GitHub repo and enable GitHub Pages (branch: main) or drag-and-drop this file into Netlify.
+      </div>
+    </footer>
+  </div>
+</body>
+</html>
